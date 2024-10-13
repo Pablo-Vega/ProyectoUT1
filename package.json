@@ -59,5 +59,8 @@
   },
   "peerDependencies": {
     "react": "^18.3.1"
+  },
+  "dependencies": {
+    "proyecto-react": "github:Pablo-Vega/Proyecto-React"
   }
 }
