@@ -1,0 +1,28 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import * as CustomButton from "./button.stories"; // Asegúrate de que esta ruta sea correcta
+
+<Meta title="CustomButton" />
+
+# CustomButton
+
+## Primary Example
+<Canvas of={CustomButton.Primary} />
+
+## Usage
+```tsx
+import { CustomButton } from 'milibreria';
+
+function Example() {
+  return (
+    <CustomButton
+      text="Button primary"
+      txtcolor="black"
+      bgcolor="red"
+      disabled={false}
+      size="small"
+      onClick={() => alert("Button Primary")}
+    />
+  );
+}
+
+export default Example;
