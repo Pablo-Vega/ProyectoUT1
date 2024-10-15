@@ -2,7 +2,6 @@
 import { defineConfig } from "vite";
 import dts from "vite-plugin-dts";
 import { peerDependencies } from "./package.json";
-import mdx from "@mdx-js/rollup";  // Importar el plugin de MDX
 
 export default defineConfig({
   build: {
@@ -20,7 +19,7 @@ export default defineConfig({
   },
   plugins: [
     dts(),
-    mdx()  // Añadir el plugin de MDX
+   
   ],  
   test: {
     globals: true,
