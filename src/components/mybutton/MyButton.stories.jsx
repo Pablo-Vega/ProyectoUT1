@@ -11,8 +11,8 @@ const Template = (args) => <MyButton {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   text: "Click Me",
-  textColor: "#000",
-  backgroundColor: "#fff",
+  textColor: "#fff",           
+  backgroundColor: "#ff0000",  
   borderColor: "#000",
   borderWidth: "2px",
   size: "medium",
@@ -20,3 +20,4 @@ Default.args = {
   hoverBackgroundColor: "#000",
   disabled: false,
 };
+
