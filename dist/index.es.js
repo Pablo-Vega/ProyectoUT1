@@ -6361,19 +6361,16 @@ process.env.NODE_ENV !== "production" && (Vo.propTypes = {
 });
 function vu(e) {
   const { bgcolor: t, text: r, txtcolor: n, disabled: o, onClick: i, size: a } = e;
-  return (
-    //Uso el Button de la librería MUI y lo personalizo con las props que pasan a mi componente.
-    /* @__PURE__ */ Ve.jsx(
-      Vo,
-      {
-        type: "button",
-        onClick: i,
-        disabled: o,
-        size: a,
-        sx: { backgroundColor: t, color: n },
-        children: r
-      }
-    )
+  return /* @__PURE__ */ Ve.jsx(
+    Vo,
+    {
+      type: "button",
+      onClick: i,
+      disabled: o,
+      size: a,
+      sx: { backgroundColor: t, color: n },
+      children: r
+    }
   );
 }
 export {
