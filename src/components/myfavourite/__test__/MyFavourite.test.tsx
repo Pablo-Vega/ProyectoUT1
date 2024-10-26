@@ -1,6 +1,7 @@
 import { render } from '@testing-library/react';
 import MyFavourite from '../MyFavourite';
 import { describe, it, expect } from 'vitest';
+import React from "react";
 
 describe('MyFavourite', () => {
   it('should render the favourite icon in the DOM', () => {
