@@ -1,0 +1,30 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import Example from "./example.tsx";
+import * as PabloPVA from "./PabloPVA.stories.tsx";
+
+<Meta of={PabloPVA} title="PabloPVA" />
+
+# PabloPVA
+
+Componente que muestra una tarjeta con un avatar, un título y una descripción.
+
+#### Ejemplo
+
+<Canvas of={PabloPVA.Primary} />
+
+## Uso
+
+```tsx
+import PabloPVA from 'milibreria';
+
+function Example() {
+  return (
+    <PabloPVA
+      title="Pablo Vargas"
+      description="Frontend Developer Extraordinaire"
+      avatar="https://example.com/pablo-avatar.jpg"
+    />
+  );
+}
+
+export default Example;

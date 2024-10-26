@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import MyFavourite from './MyFavourite';
+import MyFavourite from '../MyFavourite';
 import { describe, it, expect } from 'vitest';
 
 describe('MyFavourite', () => {
