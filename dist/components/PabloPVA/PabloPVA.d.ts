@@ -1,5 +1,5 @@
 import { default as React } from 'react';
-interface PabloPVAProps {
+export interface PabloPVAProps {
     title: string;
     description: string;
     avatar: string;
